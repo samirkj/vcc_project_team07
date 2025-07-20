@@ -14,7 +14,7 @@ daily_df = pd.read_csv("daily_df.csv", parse_dates=["Date"], index_col="Date")
 if 'Predicted_Price' not in daily_df.columns:
     daily_df['Predicted_Price'] = np.nan
 
-API_URL = "https://gold-predictor-449957159975.asia-south1.run.app/predict"
+API_URL = "https://vcc-project-team07-449957159975.asia-south1.run.app/predict"
 
 st.title("Gold Price Forecast")
 
